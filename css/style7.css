@@ -1,0 +1,818 @@
+@charset "UTF-8";
+/* line 8, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+body {
+  background: url("../img/girl_turn_back.jpg");
+  background-size: cover;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 8, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  body {
+    background-size: 100%;
+  }
+}
+
+/* line 17, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.wrapper {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 17, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .wrapper {
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 17, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@font-face {
+  font-family: Lato_Light;
+  src: url("../fonts/Lato-Light.ttf ");
+}
+
+@font-face {
+  font-family: Lato_Bold;
+  src: url("../fonts/Lato-Bold.ttf ");
+}
+
+@font-face {
+  font-family: PlayfairDisplay_Bold;
+  src: url("../fonts/PlayfairDisplay-Bold.ttf ");
+}
+
+/* line 42, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+a {
+  cursor: pointer;
+}
+
+/* line 46, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+header {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* line 50, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.nav_soc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* line 55, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.nav {
+  /*float: left;*/
+  margin: 35px 0 0 15px;
+  font-family: Lato_Bold, sans-serif;
+  color: #a0a0a0;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 55, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .nav {
+    display: none;
+  }
+}
+
+/* line 65, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.nav span a {
+  color: #a0a0a0;
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+/* line 70, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.nav span a:hover {
+  color: #000000;
+}
+
+/* line 76, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.camera {
+  /*display:inline-block;
+  text-align: center;*/
+  margin: 35px auto 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 76, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .camera {
+    margin: 35px 0 0 40px;
+  }
+}
+
+/* line 83, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.camera a {
+  color: #c0a064;
+  font-size: 18px;
+}
+
+/* line 89, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.social {
+  /*float:right;*/
+  margin-top: 35px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 89, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .social {
+    display: none;
+  }
+}
+
+/* line 95, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.social a {
+  color: #a0a0a0;
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 102, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .nav_soc button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 102, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .nav_soc button {
+    display: inline-block;
+    background: none;
+    border: 0;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+}
+
+/* line 116, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+h1 {
+  font-family: PlayfairDisplay_Bold, sans-serif;
+  font-size: 60px;
+  color: #c0a064;
+  text-align: center;
+  margin-top: 355px;
+}
+
+/* line 124, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+h3 {
+  letter-spacing: 7px;
+  font-family: Lato_Light, sans-serif;
+  font-size: 24px;
+  margin: 40px 0 125px 0;
+  text-align: center;
+}
+
+/* line 132, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.discover {
+  display: block;
+  padding-bottom: 218px;
+  text-decoration: none;
+}
+
+/* line 136, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.discover button {
+  display: block;
+  margin: 0 auto 0;
+  font-family: Lato_Bold, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #c0a064;
+  background: none;
+  border: 3px #c0a064 solid;
+  padding: 20px 60px 20px 60px;
+  cursor: pointer;
+}
+
+/* line 151, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work {
+  background: white;
+}
+
+/* line 153, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work h2 {
+  font-family: PlayfairDisplay_Bold, sans-serif;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 55px;
+  margin-top: 0;
+  padding-top: 125px;
+}
+
+/* line 161, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area {
+  padding: 0 15px 240px 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 161, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .recent_work .image_area {
+    width: 100%;
+  }
+}
+
+/* line 166, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img1 {
+  overflow: hidden;
+  float: left;
+  position: relative;
+  margin: 0 30px 30px 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 166, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .recent_work .image_area .img1 {
+    float: none;
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+}
+
+/* line 176, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img1 img {
+  display: block;
+  /*float: left;*/
+  /*margin: 0 30px 30px 0;*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 176, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .recent_work .image_area .img1 img {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* line 186, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img1 .hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+/* line 196, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img1:hover .hover {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*top:-100px;*/
+}
+
+/* line 205, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img1:hover .hover h2 {
+  font-family: PlayfairDisplay_Bold, sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  padding: 0 20% 20px 20%;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+/* line 213, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img1:hover .hover hr {
+  width: 60%;
+  color: #ffffff;
+}
+
+/* line 217, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img1:hover .hover p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 75px;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+/* line 226, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img1:hover .hover p a {
+  font-size: 36px;
+  color: #000000;
+}
+
+/* line 232, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img2 {
+  float: right;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 26px;
+  /*
+      img:nth-child(2){
+        display: block;
+        float: right;
+        /*margin-bottom: 30px;*
+        @media screen and (min-width: 768px) and (max-width: 1200px) {
+          float: none;
+          width: 96%;
+          height: auto;
+          margin: 0 auto;
+        }
+      }*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 232, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .recent_work .image_area .img2 {
+    float: left;
+    box-sizing: border-box;
+    width: 48%;
+    margin-right: 26px;
+    /*padding-right: 26px;*/
+    /*margin-left: 1.25%;*/
+  }
+}
+
+/* line 245, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img2 img {
+  display: block;
+  float: right;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 245, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .recent_work .image_area .img2 img {
+    float: none;
+    width: 96%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+/* line 266, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img2 .hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+/* line 276, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img2:hover .hover {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 10s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*top:-100px;*/
+}
+
+/* line 285, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img2:hover .hover h2 {
+  font-family: PlayfairDisplay_Bold, sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  padding: 0 20% 20px 20%;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+/* line 293, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img2:hover .hover hr {
+  width: 60%;
+  color: #ffffff;
+}
+
+/* line 297, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img2:hover .hover p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 75px;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+/* line 306, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img2:hover .hover p a {
+  font-size: 36px;
+  color: #000000;
+}
+
+/* line 312, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img3 {
+  float: right;
+  overflow: hidden;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 312, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .recent_work .image_area .img3 {
+    /*float: right;*/
+    box-sizing: border-box;
+    width: 48%;
+    margin-right: auto;
+  }
+}
+
+/* line 322, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img3 img {
+  display: block;
+  float: right;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 322, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .recent_work .image_area .img3 img {
+    float: none;
+    width: 96%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+/* line 333, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img3 .hover3 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+/* line 343, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img3:hover .hover3 {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 10s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*top:-100px;*/
+}
+
+/* line 352, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img3:hover .hover3 h2 {
+  font-family: PlayfairDisplay_Bold, sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  padding: 0 20% 20px 20%;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+/* line 360, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img3:hover .hover3 hr {
+  width: 60%;
+  color: #ffffff;
+}
+
+/* line 364, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img3:hover .hover3 p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 75px;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+/* line 373, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img3:hover .hover3 p a {
+  font-size: 36px;
+  color: #000000;
+}
+
+/* line 381, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img4 {
+  float: none;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 386, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img4 img {
+  display: block;
+  float: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 386, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .recent_work .image_area .img4 img {
+    float: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* line 395, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img4 .hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+/* line 405, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img4:hover .hover {
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*top:-100px;*/
+}
+
+/* line 414, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img4:hover .hover h2 {
+  font-family: PlayfairDisplay_Bold, sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  padding: 0 20% 20px 20%;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+/* line 422, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img4:hover .hover hr {
+  width: 60%;
+  color: #ffffff;
+}
+
+/* line 426, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img4:hover .hover p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 75px;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+/* line 435, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.recent_work .image_area .img4:hover .hover p a {
+  font-size: 36px;
+  color: #000000;
+}
+
+/* line 445, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.collection, .mother_earth, .portraits {
+  overflow: hidden;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 445, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .collection, .mother_earth, .portraits {
+    margin-bottom: 60px;
+  }
+}
+
+/* line 451, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.collection img, .mother_earth img, .portraits img {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 451, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .collection img, .mother_earth img, .portraits img {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+/* line 461, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.collection_text, .mother_earth_text, .portraits_text {
+  box-sizing: border-box;
+  float: right;
+  width: 50%;
+  padding: 53px 135px 53px 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 461, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .collection_text, .mother_earth_text, .portraits_text {
+    width: 61%;
+    float: none;
+    padding: 53px 0 53px;
+    margin: 0 auto;
+  }
+}
+
+/* line 472, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.collection_text h2, .mother_earth_text h2, .portraits_text h2 {
+  font-size: 36px;
+  font-family: PlayfairDisplay_Bold, sans-serif, sans-serif;
+  padding-top: 0px;
+  margin: 0 0 29px 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 472, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .collection_text h2, .mother_earth_text h2, .portraits_text h2 {
+    /*display: block;
+        margin:0 auto 29px;
+        width:100%;*/
+    text-align: center;
+  }
+}
+
+/* line 484, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.collection_text p, .mother_earth_text p, .portraits_text p {
+  font-family: Lato_Light, sans-serif;
+  font-size: 16px;
+  margin: 0 0 55px 0;
+  line-height: 27px;
+  color: #6c6a68;
+}
+
+/* line 491, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.collection_text a, .mother_earth_text a, .portraits_text a {
+  display: block;
+  float: left;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 491, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .collection_text a, .mother_earth_text a, .portraits_text a {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+/* line 499, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.collection_text a button, .mother_earth_text a button, .portraits_text a button {
+  display: block;
+  margin: 0 auto 0;
+  font-family: Lato_Bold, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #c0a064;
+  background: none;
+  border: 3px #c0a064 solid;
+  padding: 15px 55px 15px 55px;
+  cursor: pointer;
+}
+
+/* line 518, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.mother_earth img {
+  float: right;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 518, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .mother_earth img {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+/* line 526, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.mother_earth_text {
+  float: left;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 526, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .mother_earth_text {
+    width: 61%;
+    float: none;
+    padding: 53px 0 53px;
+    margin: 0 auto;
+  }
+}
+
+/* line 540, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.portraits img {
+  /*display: block;*/
+  float: left;
+  /*width: 50%;*/
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* line 540, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+  .portraits img {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+/* line 555, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.get_in_touch {
+  padding: 245px 0 80px 0;
+}
+
+/* line 557, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.get_in_touch h2 {
+  display: block;
+  font-family: PlayfairDisplay_Bold, sans-serif;
+  font-size: 36px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+/* line 564, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.get_in_touch form {
+  display: block;
+  margin: 0 auto 60px;
+  width: 30.8%;
+}
+
+/* line 568, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.get_in_touch form input[name="name"], .get_in_touch form input[name="e-mail"], .get_in_touch form textarea {
+  display: block;
+  float: none;
+  box-sizing: border-box;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 0;
+  border-bottom: 0;
+  width: 100%;
+  padding: 20px;
+  font-family: Lato_Light, sans-serif;
+  font-size: 16px;
+  color: #6c6a68;
+}
+
+/* line 585, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.get_in_touch form textarea {
+  border-bottom: 1px solid black;
+  margin-bottom: 20px;
+}
+
+/* line 590, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.get_in_touch form input[name="Send"] {
+  display: block;
+  margin: 0 auto 0;
+  font-family: Lato_Bold, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #c0a064;
+  background: none;
+  border: 3px #c0a064 solid;
+  padding: 15px 55px 15px 55px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* line 605, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.get_in_touch h4 {
+  display: block;
+  font-family: Lato_Light, sans-serif;
+  font-size: 16px;
+  color: #6c6a68;
+  text-align: center;
+}
+
+/* line 612, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.get_in_touch span {
+  display: block;
+  text-align: center;
+}
+
+/* line 615, C:/Users/konoplya/Desktop/курсы/задание №7/sass/style7.scss */
+.get_in_touch span a {
+  color: #000000;
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+/*# sourceMappingURL=../css/style7.map */
